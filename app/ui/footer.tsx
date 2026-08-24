@@ -10,7 +10,7 @@ const Footer = () => {
                     <p>Get the weekly forecast on the creative economy, exclusive <br />roster news, and early access to ÀJÀLÁ drops.</p>
                 </div>
                 <div className={styles.email_sub}>
-                    <input type="email" placeholder="YOUR EMAIL ADDRESS" size="30"/>
+                    <input type="email" placeholder="YOUR EMAIL ADDRESS" size={30}/>
                     <Button className={styles.sub_button}>SUBSCRIBE</Button>
                 </div>
             </div>

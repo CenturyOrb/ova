@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "@/app/home.module.css";
-import Button from "@/app/ui/button.tsx";
+import Button from "@/app/ui/button";
 import Map from "@/public/map.png";
-import EcosystemGrid from "@/app/ui/home/ecosystem-grid.tsx";
+import EcosystemGrid from "@/app/ui/home/ecosystem-grid";
 
 export default function Home() {
   return (
