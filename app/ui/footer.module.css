@@ -1,0 +1,66 @@
+.footer { 
+    background-color: black;
+    padding: 5rem;
+    
+    h1 { 
+        font-size: 3rem;
+        font-weight: 800;
+        color: #6A03BB;
+        line-height: 1;
+    }
+
+    p {
+        margin-top: 1rem;
+        color: #C6B8B8;
+        font-weight: 1.2rem;
+    }
+
+    input {
+        background-color: #323030;
+        padding: 0.5rem;
+        color: white;
+    }
+
+    ::placeholder { 
+        color: #AAAAAA;
+    }
+}
+
+.storm_warning {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email_sub { 
+    display: flex;
+    gap: 1rem;
+}
+
+.sub_button { 
+    background-color: #6A03BB;
+    color: white;
+}
+
+.oya_footer { 
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+
+    margin-top: 3rem;
+}
+
+.footer_section {
+    display: flex;
+    flex-direction: column;
+
+    h1 { 
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+.footer_section > p:first-of-type { 
+    color: white;
+}
+
