@@ -34,3 +34,11 @@
     height: 4.5rem;
     width: auto;
 }
+
+@media (max-width: 768px) {
+    .nav {
+        h1 {
+            display: none;
+        }
+    }
+}

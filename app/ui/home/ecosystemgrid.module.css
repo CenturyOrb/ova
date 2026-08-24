@@ -1,3 +1,5 @@
+@media (min-width: 768px) {
+
 .grid { 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -26,4 +28,35 @@
 
 .grid p { 
     color: white;
+}
+}
+
+@media (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 100%);
+        grid-template-rows: 1fr;
+        overflow-x: auto;
+        gap: 1rem;
+    }
+
+    .grid > div {
+        border: 1px solid #1A1C20;
+        border-radius: 1rem;
+        background-color: #25282E;
+        padding: 2rem;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .grid h1 { 
+        color: #6A03BB;
+        font-weight: 800;
+        font-size: 2rem;
+        line-height: 1;  
+    }
+
+    .grid p { 
+        color: white;
+    }
 }
